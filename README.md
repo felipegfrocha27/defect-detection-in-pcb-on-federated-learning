@@ -7,17 +7,20 @@ Both **centralized training** and **federated training** (Flower) are supported,
 ---
 
 ## Repository Structure
-├── FL/                       # Treinamento federado (server + clients)
-│   ├── server/               # Servidor Flower (FedAvg)
-│   └── clients/              # Clientes (Raspberry Pi 4/5)
+====================
+
+defect-detection-in-pcb-on-federated-learning/
+├── FL/                          # Federated training (server + clients)
+│   ├── server/                  # Flower server (FedAvg)
+│   └── clients/                 # Raspberry Pi 4/5 clients
 │
-├── Centralized/              # Linha de base centralizada (notebooks/artefatos)
+├── Centralized/                 # Centralized training baselines
 │   ├── train_yolov8_object_detection_on_custom_dataset.ipynb
 │   ├── train_yolov12_object_detection_model.ipynb
 │   ├── Felipe_Mobilenetssdfpnlite_320x320.ipynb
-│   └── Fomo_Model.txt        # Export do modelo/impulse do Edge Impulse
+│   └── Fomo_Model.txt           # Edge Impulse export (FOMO)
 │
-├── Dashboard/                # IHM (stream + detecções + métricas)
-│   └── app/                  # Código da interface
+├── Dashboard/                   # HMI (video stream + detections + metrics)
+│   └── app/                     # UI code
 │
 └── README.md
