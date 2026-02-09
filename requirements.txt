@@ -1,0 +1,16 @@
+torch
+torchvision
+numpy
+pandas
+matplotlib
+ultralytics
+opencv-python
+flwr
+pillow
+tkinter
+tqdm
+scikit-learn
+pyyaml
+jupyter
+notebook
+ipython
