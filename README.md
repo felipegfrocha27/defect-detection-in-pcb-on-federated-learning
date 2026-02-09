@@ -18,7 +18,7 @@ Please ensure you have the following dependencies installed to run this project 
 ### Federated Learning Setup
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/felipegfrocha27/defect-detection-in-pcb-on-federated-learning
    cd defect-detection-in-pcb-on-federated-learning
    ```
 2. Install requirements:
