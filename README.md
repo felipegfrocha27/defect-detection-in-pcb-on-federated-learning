@@ -35,9 +35,6 @@ For centralized training without federated learning, follow these steps:
 ### Dashboard
 Access the dashboard for visualizing training metrics and model performance. Refer to the documentation in the dashboard folder for details on how to run and configure it.
 
-### Troubleshooting
-For any issues encountered, consult the `troubleshooting.md` file in the repository. Common issues and their solutions are documented there.
-
 ## Dependencies
 Refer to `requirements.txt` for a comprehensive list of dependencies required by the project.
 
