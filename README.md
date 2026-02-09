@@ -8,8 +8,9 @@ The **Federated Learning (FL)** folder contains all the resources related to the
 
 ## Dataset Folder
 The **Dataset** folder contains essential datasets provided via Roboflow links. Ensure you have access to the datasets for successful model training:
-- [Roboflow Dataset Link 1](<insert_link_here>)
-- [Roboflow Dataset Link 2](<insert_link_here>)
+- [Complete Dataset](<[insert_link_here](https://app.roboflow.com/masters-5bgc5/novo-dataset-pcbs-com-defeitos/7)>)
+- [Client 1 Dataset](<[insert_link_here](https://app.roboflow.com/masters-5bgc5/novo-dataset-pcbs-com-defeitos/10)>)
+- [Client 2 Dataset](<[insert_link_here](https://app.roboflow.com/masters-5bgc5/novo-dataset-pcbs-com-defeitos/11)>)
 
 ## Requirements
 Please ensure you have the following dependencies installed to run this project successfully. You can find them in the `requirements.txt` file.
@@ -39,6 +40,6 @@ Access the dashboard for visualizing training metrics and model performance. Ref
 Refer to `requirements.txt` for a comprehensive list of dependencies required by the project.
 
 ## Author Information
-- Author: Felipe G. Frocha
+- Author: Felipe G. F. Rocha
 - Date: 2026-02-09
 - GitHub: [felipegfrocha27](https://github.com/felipegfrocha27)
