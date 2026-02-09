@@ -1,0 +1,3 @@
+Dataset Completo: https://app.roboflow.com/masters-5bgc5/novo-dataset-pcbs-com-defeitos/7
+Dataset Cliente 1: https://app.roboflow.com/masters-5bgc5/novo-dataset-pcbs-com-defeitos/10
+Dataset Cliente 2: https://app.roboflow.com/masters-5bgc5/novo-dataset-pcbs-com-defeitos/11
