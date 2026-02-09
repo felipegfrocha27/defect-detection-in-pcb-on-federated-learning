@@ -1,19 +1,47 @@
 # Defect Detection in PCB using Federated Learning
 
-## Project Structure
+## Project Overview
+This project implements a defect detection system for printed circuit boards (PCBs) using federated learning techniques. It allows for distributed data processing and model training while preserving data privacy.
 
-This repository contains a project designed to detect defects in Printed Circuit Boards (PCBs) using Federated Learning techniques. The project is structured into several key directories:
+## Federated Learning Folder
+The **Federated Learning (FL)** folder contains all the resources related to the federated learning setup. It includes algorithms, client and server codes, and configuration files essential for running federated learning experiments.
 
-- **FL**: This directory contains all the code and resources related to the Federated Learning implementation. It includes model training scripts and data handling processes that ensure privacy and security during the learning phase.
+## Dataset Folder
+The **Dataset** folder contains essential datasets provided via Roboflow links. Ensure you have access to the datasets for successful model training:
+- [Roboflow Dataset Link 1](<insert_link_here>)
+- [Roboflow Dataset Link 2](<insert_link_here>)
 
-- **Centralized**: This directory includes scripts and tools for centralized training and validation of models. It is used for comparative analysis with the Federated Learning results and demonstrates traditional machine learning approaches in defect detection.
+## Requirements
+Please ensure you have the following dependencies installed to run this project successfully. You can find them in the `requirements.txt` file.
 
-- **Dashboard**: This folder is dedicated to the visualization and analysis of the model results. It includes web-based applications to monitor the model performance and defects detected during the testing phase.
+## Usage Instructions
+### Federated Learning Setup
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd defect-detection-in-pcb-on-federated-learning
+   ```
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Follow the instructions in the `Federated Learning` folder to set up the environment and run experiments.
 
-## Installation
+### Centralized Training
+For centralized training without federated learning, follow these steps:
+1. Navigate to the `Centralized_Training` directory.
+2. Use the scripts available to train models with a single centralized dataset.
 
-To install this project, clone the repository and navigate to the desired directory to run the respective setup instructions. Ensure you have the necessary dependencies installed as specified in the respective directory documentation.
+### Dashboard
+Access the dashboard for visualizing training metrics and model performance. Refer to the documentation in the dashboard folder for details on how to run and configure it.
 
-## Usage
+### Troubleshooting
+For any issues encountered, consult the `troubleshooting.md` file in the repository. Common issues and their solutions are documented there.
 
-Instructions for running the scripts, training models, and using the dashboard can be found in their respective folders. Each directory contains a README file with detailed usage guidelines.
+## Dependencies
+Refer to `requirements.txt` for a comprehensive list of dependencies required by the project.
+
+## Author Information
+- Author: Felipe G. Frocha
+- Date: 2026-02-09
+- GitHub: [felipegfrocha27](https://github.com/felipegfrocha27)
